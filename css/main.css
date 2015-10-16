@@ -1,0 +1,180 @@
+header .jumbotron {
+    background: url('./../images/husky-on-the-grass_00441869.jpg');
+    background-position: left;
+    background-size: cover;
+    color: #fff;
+    height: 270px;
+}
+
+@media (min-width: 650px) {
+    header .jumbotron {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    header .jumbotron {
+        height: 500px;
+    }
+}
+
+header .jumbotron small {
+    color: #fff;
+}
+
+
+body > article > section + section {
+    margin-top: 30px;
+}
+
+body > article > section > h2 {
+    border-bottom: 1px dotted #efefef;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product-selection select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 15px;
+    width: 350px;
+}
+
+.product-selection .btn-add {
+    display: none;
+}
+
+
+
+
+.product-selected .adoption-box h3 {
+    margin-top: 10px;
+}
+
+.product-selected .adoption-box img {
+    border-radius: 20px;
+}
+
+.product-selected .adoption-box .data .description {
+    text-align: justify;
+}
+
+.product-selected .adoption-box .data .care {
+    overflow: hidden;
+}
+
+.product-selected .adoption-box .data .care .quantity .care-quantity {
+    float: left;
+    margin-left: 5px;
+    height: 15px;
+    color: pink;
+}
+
+.product-selected .adoption-box .btn-view-adoption {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+
+.product-calculation .box-adoption {
+    clear: both;
+    overflow: hidden;
+}
+
+.product-calculation .box-adoption + .box-adoption {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px dotted #ddd;
+}
+
+.product-calculation .box-adoption img {}
+
+.product-calculation .box-adoption .data {}
+
+.product-calculation .box-adoption .data .care {
+    clear: both;
+    overflow: hidden;
+}
+
+
+
+.total-cares .heart {
+    font-size: 3em;
+}
+
+
+
+.heart-count {
+    float: left;
+    color: pink;
+    margin-left: 5px;
+}
+
+.heart {
+    float: left;
+    color: pink;
+}
+
+.heart + .heart {
+    margin-left: 5px;
+}
+
+
+
+
+
+footer {
+    margin-top: 50px;
+}
+
+.cute-paw-separator {
+    width: 32px;
+    height: 32px;
+    background: url('./../images/svg/dog-paw.svg');
+    margin: 30px auto;
+    position: relative;
+}
+
+footer .jumbotron {
+    margin: 0;
+    background: #666;
+    color: #fff;
+    text-align: center;
+}
+
+.clear-float {
+    float: none;
+}
+
+
+
+
+.adoption-fancybox-content .name {
+    font-size: 3em;
+}
+
+.adoption-fancybox-content .price {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.adoption-fancybox-content img {
+    border-radius: 20px;
+}
+
+.adoption-fancybox-content .care .quantity {
+    color: pink;
+    font-size: 3em;
+}
+
+.adoption-fancybox-content .care .quantity .care-quantity {
+    float: left;
+}
+
+.adoption-fancybox-content .care .quantity .care-quantity + .care-quantity {
+    margin-left: 5px;
+}
